@@ -1,3 +1,5 @@
+# virus-sulfur-multiomics
+
 This repository contains the scripts and workflows used in the study:  
 **"Virus-Induced Dominance of Sulfur-Oxidizing Bacteria via Enhanced Substrate Access and Competitor Suppression"**.
 
