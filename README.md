@@ -15,13 +15,13 @@ It includes complete pipelines for:
 
 ## How to Run
 
-### To run 16S rRNA processing
+### Process 16S rRNA amplicon data
 bash scripts/16S_qiime2_pipeline.sh
 
-### To assemble metagenomes and detect viral contigs
+### Assemble metagenomes and identify viral contigs
 bash scripts/metagenome_pipeline.sh
 
-### To generate statistical plots
+### Generate statistical plots
 Rscript analysis/analysis_plot.R
 
 ## Main tools and versions
