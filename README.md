@@ -37,3 +37,12 @@ Rscript analysis/analysis_plot.R
 - vContact2 (v0.8.1) — Viral genome classification
 - WiSH (v1.1) —  Virus-host association prediction 
 - R (v4.4.0) with phyloseq, vegan, ggplot2 — statistics and visualization
+
+## Classifier Resource (for 16S annotation)
+This pipeline requires a pretrained classifier for the 16S rRNA V3–V4 region based on the SILVA 138 database.
+Please manually download the following files from the [QIIME2 SILVA data resource](https://docs.qiime2.org/2022.8/data-resources/):
+
+- `silva-138-99-seqs.qza`  
+- `silva-138-99-tax.qza`
+
+ These files will be used for classifier training and taxonomy assignment in `scripts/16S_qiime2_pipeline.sh`.
