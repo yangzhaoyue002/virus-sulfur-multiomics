@@ -26,24 +26,6 @@ bash scripts/virome_data_pipeline.sh
 ### Generate statistical plots
 Rscript analysis/analysis_plot.R
 
-## data
-feature-table.tsv
-taxonomy.tsv
-bact_conc.csv
-Cu_conc.csv
-S_conc.csv
-SO4_conc.csv
-Fe_conc.csv
-Fe23_conc.csv
-pH.csv
-virus_rpkm.csv
-bin_rpkm.tsv
-prediction.list
-clustered_protein.tsv
-gene_structure.csv
-virus particle number.csv
-scyc_coverm.csv
-
 ## Main tools and versions
 - QIIME2 — 16S rRNA amplicon analysis
 - MEGAHIT (v1.2.9) — Metagenomic contig assembly
@@ -66,5 +48,3 @@ Please manually download the following files from the [QIIME2 SILVA data resourc
 - `silva-138-99-tax.qza`
 
  These files will be used for classifier training and taxonomy assignment in `scripts/16S_qiime2_pipeline.sh`.
-## SCyc
-## virsorter2
